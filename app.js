@@ -10,7 +10,7 @@ const User = require("./models/user");
 
 // Express app
 const app = express();
-const MONGO_DB_URL = "CONNECT YOUR DATABASE HERE";
+const MONGO_DB_URL = "mongodb+srv://itsuki-chan:<password>@cluster0.i29sptj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 // Connect to MongoDB Atlas
 mongoose
